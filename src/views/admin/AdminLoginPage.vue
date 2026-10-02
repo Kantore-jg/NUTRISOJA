@@ -2,7 +2,7 @@
 import { ref, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { RouterLink } from 'vue-router'
-import { Leaf, Lock, Mail, ArrowRight, ShieldCheck, AlertCircle } from 'lucide-vue-next'
+import { Lock, Mail, ArrowRight, ShieldCheck, AlertCircle } from 'lucide-vue-next'
 import { useAuthStore } from '@/src/stores/auth'
 import { useToastStore } from '@/src/stores/toast'
 
@@ -50,9 +50,11 @@ const handleDemoFill = () => {
   <div class="min-h-screen bg-[#F5F1E8] flex flex-col justify-center py-12 sm:px-6 lg:px-8">
     <div class="sm:mx-auto sm:w-full sm:max-w-md text-center">
       <RouterLink to="/" class="inline-flex items-center gap-3 group mb-4">
-        <div class="w-12 h-12 rounded-2xl bg-[#2E7D32] flex items-center justify-center shadow-lg text-white">
-          <Leaf class="w-7 h-7 text-[#D4A017]" />
-        </div>
+        <img
+          src="/assets/logo.png"
+          alt="NUTRI SOJA Burundi"
+          class="w-14 h-14 rounded-2xl object-cover shadow-lg ring-1 ring-[#2E7D32]/20"
+        />
         <div class="text-left">
           <span class="font-heading font-extrabold text-2xl tracking-tight text-[#1C1C1C]">
             NUTRI <span class="text-[#2E7D32]">SOJA</span>

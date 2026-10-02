@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
-import { Menu, X, Leaf, MessageSquare, Shield } from 'lucide-vue-next'
+import { Menu, X, MessageSquare, Shield } from 'lucide-vue-next'
 import { useAuthStore } from '@/src/stores/auth'
 
 const auth = useAuthStore()
@@ -28,16 +28,24 @@ function isActive(path) {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <!-- LOGO -->
-          <div class="w-11 h-11 rounded-xl bg-[#2E7D32] flex items-center justify-center shadow-md text-white group-hover:bg-[#1B5E20] transition-colors">
-            <Leaf class="w-6 h-6 text-[#D4A017]" />
-          </div>
+        <RouterLink
+          to="/"
+          class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-[#2E7D32] rounded-xl"
+        >
+          <img
+            src="/assets/logo.png"
+            alt="NUTRI SOJA Burundi — La saveur naturelle"
+            class="h-14 w-14 sm:h-16 sm:w-16 rounded-xl object-cover shadow-md ring-1 ring-[#2E7D32]/15 group-hover:ring-[#2E7D32]/40 transition-all"
+          />
           <div class="flex flex-col">
-            <span class="font-heading font-extrabold text-xl tracking-tight text-[#1C1C1C] group-hover:text-[#2E7D32] transition-colors">
-              NUTRI SOJA Burundi</span>
-            <span class="text-[11px] font-medium uppercase tracking-wider text-[#5A5A5A]">
-              Agroalimentaire du Burundi
+            <span class="font-heading font-extrabold text-lg sm:text-xl tracking-tight text-[#1C1C1C] group-hover:text-[#2E7D32] transition-colors">
+              NUTRI SOJA BURUNDI
+            </span>
+            <span class="text-[10px] sm:text-[11px] font-medium uppercase tracking-wider text-[#5A5A5A]">
+              La saveur naturelle
             </span>
           </div>
+        </RouterLink>
 
         <!-- DESKTOP NAVIGATION -->
         <nav class="hidden md:flex items-center gap-1 lg:gap-2">

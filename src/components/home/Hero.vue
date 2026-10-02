@@ -13,8 +13,7 @@ import { ArrowRight, CheckCircle, ShieldCheck } from 'lucide-vue-next'
         <!-- TEXT CONTENT -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
           <h1 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#1C1C1C] leading-[1.15] tracking-tight">
-            La force nutritionnelle du <span class="text-[#2E7D32]">soja</span> cultivé avec fierté au Burundi.
-          </h1>
+            « La saveur naturelle »          </h1>
 
           <p class="text-base sm:text-lg text-gray-700 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
             Des laits végétaux onctueux, des farines enrichies pour nourrissons et du tofu artisanal frais.
@@ -30,12 +29,7 @@ import { ArrowRight, CheckCircle, ShieldCheck } from 'lucide-vue-next'
               <span>Découvrir nos produits</span>
               <ArrowRight class="w-5 h-5 text-[#D4A017]" />
             </RouterLink>
-            <RouterLink
-              to="/contact"
-              class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-white text-[#1C1C1C] font-semibold text-base border border-gray-300 hover:border-[#2E7D32] hover:bg-[#2E7D32]/5 shadow-xs transition-all"
-            >
-              <span>Nous contacter &amp; Devis ONG</span>
-            </RouterLink>
+            
           </div>
 
           <!-- TRUST BADGES -->

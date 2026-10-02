@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import { Leaf, MapPin, Phone, Mail, Clock, ArrowRight, Shield } from 'lucide-vue-next'
+import { MapPin, Phone, Mail, Clock, ArrowRight, Shield } from 'lucide-vue-next'
 
 const currentYear = new Date().getFullYear()
 </script>
@@ -12,9 +12,11 @@ const currentYear = new Date().getFullYear()
         <!-- COLONNE 1: ENTREPRISE -->
         <div class="space-y-4">
           <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded-xl bg-[#2E7D32] flex items-center justify-center text-white">
-              <Leaf class="w-5 h-5 text-[#D4A017]" />
-            </div>
+            <img
+              src="/assets/logo.png"
+              alt="NUTRI SOJA Burundi"
+              class="w-12 h-12 rounded-xl object-cover shadow-md ring-1 ring-white/20"
+            />
             <span class="font-heading font-bold text-xl tracking-tight text-white">
               NUTRI <span class="text-[#D4A017]">SOJA</span>
             </span>

@@ -12,7 +12,6 @@ import {
   ExternalLink,
   Menu,
   X,
-  Leaf,
   Shield,
 } from 'lucide-vue-next'
 import { useAuthStore } from '@/src/stores/auth'
@@ -68,9 +67,11 @@ const isActive = (item) => {
     <!-- MOBILE HEADER -->
     <header class="md:hidden bg-[#1C1C1C] text-white px-4 py-3 flex items-center justify-between sticky top-0 z-50">
       <div class="flex items-center gap-2.5">
-        <div class="w-8 h-8 rounded-lg bg-[#2E7D32] flex items-center justify-center text-white">
-          <Leaf class="w-4 h-4 text-[#D4A017]" />
-        </div>
+        <img
+          src="/assets/logo.png"
+          alt="NUTRI SOJA"
+          class="w-8 h-8 rounded-lg object-cover"
+        />
         <span class="font-heading font-bold text-base text-white">
           NUTRI <span class="text-[#D4A017]">ADMIN</span>
         </span>
@@ -94,9 +95,11 @@ const isActive = (item) => {
         <!-- LOGO -->
         <div class="p-6 border-b border-white/10 flex items-center justify-between">
           <RouterLink to="/admin" class="flex items-center gap-3 group">
-            <div class="w-10 h-10 rounded-xl bg-[#2E7D32] flex items-center justify-center text-white shadow-sm">
-              <Leaf class="w-5 h-5 text-[#D4A017]" />
-            </div>
+            <img
+              src="/assets/logo.png"
+              alt="NUTRI SOJA"
+              class="w-10 h-10 rounded-xl object-cover shadow-sm ring-1 ring-white/15"
+            />
             <div>
               <span class="font-heading font-extrabold text-lg text-white block">
                 NUTRI <span class="text-[#D4A017]">SOJA</span>

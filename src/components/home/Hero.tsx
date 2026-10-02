@@ -12,10 +12,7 @@ export const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* TEXT CONTENT */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#2E7D32]/10 border border-[#2E7D32]/20 text-[#2E7D32] text-xs sm:text-sm font-semibold">
-              <Sparkles className="w-4 h-4 text-[#D4A017]" />
-              <span>Agroalimentaire responsable & solidaire au Burundi</span>
-            </div>
+            
 
             <h1 className="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#1C1C1C] leading-[1.15] tracking-tight">
               La force nutritionnelle du <span className="text-[#2E7D32]">soja</span> cultivé avec fierté au Burundi.

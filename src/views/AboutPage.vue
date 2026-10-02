@@ -56,9 +56,7 @@ const team = [
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
       <!-- HERO INTRO -->
       <section class="text-center max-w-3xl mx-auto space-y-4">
-        <span class="px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-widest bg-[#2E7D32]/10 text-[#2E7D32]">
-          Notre Raison d'Être
-        </span>
+       
         <h1 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-[#1C1C1C]">
           Nourrir le Burundi avec la force de ses propres récoltes.
         </h1>
@@ -124,9 +122,6 @@ const team = [
       <!-- NOS VALEURS -->
       <section class="space-y-10">
         <div class="text-center max-w-2xl mx-auto space-y-2">
-          <span class="text-xs font-bold uppercase tracking-widest text-[#2E7D32]">
-            Éthique &amp; Principes
-          </span>
           <h2 class="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl text-[#1C1C1C]">
             Les 4 piliers de notre engagement
           </h2>
@@ -185,9 +180,7 @@ const team = [
       <!-- ÉQUIPE -->
       <section class="space-y-10">
         <div class="text-center max-w-2xl mx-auto space-y-2">
-          <span class="text-xs font-bold uppercase tracking-widest text-[#2E7D32]">
-            Experts &amp; Passionnés
-          </span>
+         
           <h2 class="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl text-[#1C1C1C]">
             L'équipe à vos côtés
           </h2>

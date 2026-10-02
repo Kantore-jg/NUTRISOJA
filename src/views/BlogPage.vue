@@ -66,10 +66,6 @@ function onSearchInput(e) {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- HEADER -->
       <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
-        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#2E7D32]/10 text-[#2E7D32] text-xs font-bold uppercase tracking-wider">
-          <BookOpen class="w-3.5 h-3.5 text-[#D4A017]" />
-          <span>Le Mag NUTRI SOJA Burundi</span>
-        </div>
         <h1 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-[#1C1C1C]">
           Actualités, Nutrition &amp; Recettes Burundaises
         </h1>

@@ -1,5 +1,5 @@
 {
-  "name": "NUTRI SOJA",
+  "name": "NUTRI SOJA Burundi",
   "description": "Site vitrine et back-office pour NUTRI SOJA, entreprise agroalimentaire burundaise de transformation du soja (lait, farines enrichies, tofu, huile).",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

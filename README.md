@@ -1,10 +1,9 @@
-## Run Locally
+## NUTRI SOJA
 
-**Prerequisites:**  Node.js
+Site vitrine + back-office (Vue 3 + Vite + JavaScript).
 
+1. Installer les dépendances : `npm install`
+2. Lancer l’app : `npm run dev`
+3. Build : `npm run build`
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Back-office démo : `/admin/login` — `admin@nutrisoja.bi` / `NutriSoja2026!`

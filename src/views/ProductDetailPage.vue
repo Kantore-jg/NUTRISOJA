@@ -105,14 +105,6 @@ function handleCopyLink() {
           <ArrowLeft class="w-4 h-4" />
           <span>Retour aux produits</span>
         </RouterLink>
-
-        <button
-          @click="handleCopyLink"
-          class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-gray-200 text-xs font-semibold text-gray-700 hover:bg-gray-50 transition-colors"
-        >
-          <Share2 class="w-3.5 h-3.5 text-[#2E7D32]" />
-          <span>Partager ce produit</span>
-        </button>
       </div>
 
       <!-- MAIN PRODUCT GRID -->
@@ -126,12 +118,7 @@ function handleCopyLink() {
               class="w-full h-full object-cover"
               referrerpolicy="no-referrer"
             />
-            <div
-              v-if="product.isFeatured"
-              class="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-extrabold bg-[#D4A017] text-white shadow-md"
-            >
-              Recommandé par nos nutritionnistes
-            </div>
+            
           </div>
 
           <!-- THUMBNAILS -->
@@ -181,7 +168,7 @@ function handleCopyLink() {
             <div class="flex items-baseline gap-3">
               <span class="font-heading font-black text-3xl text-[#2E7D32]">
                 {{ product.price.toLocaleString('fr-FR') }}
-                <span class="text-base font-bold text-gray-700">Francs Burundais (BIF)</span>
+                <span class="text-base font-bold text-gray-700">(BIF)</span>
               </span>
               <span class="text-xs font-medium text-gray-500 bg-gray-100 px-2.5 py-1 rounded-lg">
                 {{ product.packageSize }}

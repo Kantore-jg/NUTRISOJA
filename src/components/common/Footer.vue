@@ -24,14 +24,6 @@ const currentYear = new Date().getFullYear()
           <p class="text-sm text-gray-300 leading-relaxed">
             Entreprise agroalimentaire burundaise pionnière dans la transformation et la valorisation du soja cultivé localement. Nous nourrissons le Burundi avec des produits sains, riches en protéines et accessibles à tous.
           </p>
-          <div class="flex items-center gap-3 pt-2">
-            <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-[#2E7D32]/30 text-emerald-300 border border-[#2E7D32]/50">
-              100% Fabriqué au Burundi
-            </span>
-            <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/40">
-              Non OGM
-            </span>
-          </div>
         </div>
 
         <!-- COLONNE 2: PRODUITS -->

@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS public.products (
   category TEXT NOT NULL CHECK (category IN ('boissons', 'farines', 'derives')),
   short_description TEXT NOT NULL,
   full_description TEXT NOT NULL,
-  price NUMERIC(12, 2) NOT NULL DEFAULT 0, -- En Francs Burundais (BIF)
+  price NUMERIC(12, 2) NOT NULL DEFAULT 0, -- En (BIF)
   package_size TEXT NOT NULL,
   images TEXT[] DEFAULT '{}',
   composition TEXT[] DEFAULT '{}',

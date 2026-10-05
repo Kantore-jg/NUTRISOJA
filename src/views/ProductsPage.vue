@@ -71,13 +71,10 @@ function resetFilters() {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- HEADER -->
       <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
-        <h1 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-[#1C1C1C]">
+        <h3 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl text-[#1C1C1C]">
           La gamme saine &amp; gourmande du Burundi
-        </h1>
-        <p class="text-sm sm:text-base text-gray-600">
-          Tous nos produits sont élaborés à partir de graines de soja locales non OGM,
-          garantissant une richesse optimale en protéines complètes, calcium et fer.
-        </p>
+        </h3>
+       
       </div>
 
       <!-- FILTERS & SEARCH TOOLBAR -->

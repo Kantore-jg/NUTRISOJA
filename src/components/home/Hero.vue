@@ -12,8 +12,8 @@ import { ArrowRight, CheckCircle, ShieldCheck } from 'lucide-vue-next'
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
         <!-- TEXT CONTENT -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
-          <h1 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#1C1C1C] leading-[1.15] tracking-tight">
-            « La saveur naturelle »          </h1>
+          <h3 class="font-heading font-extrabold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#1C1C1C] leading-[1.15] tracking-tight">
+            « La saveur naturelle »          </h3>
 
           <p class="text-base sm:text-lg text-gray-700 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
             Des laits végétaux onctueux, des farines enrichies pour nourrissons et du tofu artisanal frais.
@@ -61,34 +61,6 @@ import { ArrowRight, CheckCircle, ShieldCheck } from 'lucide-vue-next'
               />
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
 
-              <!-- Overlaid Badge -->
-              <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 backdrop-blur-md shadow-lg border border-white/40">
-                <div class="flex items-center justify-between">
-                  <div>
-                    <span class="text-xs font-bold uppercase tracking-wider text-[#2E7D32]">
-                      Produit Phare
-                    </span>
-                    <h4 class="font-heading font-bold text-gray-900 text-sm sm:text-base">
-                      Lait de Soja NutriSoy &amp; TotoFort
-                    </h4>
-                    <p class="text-xs text-gray-500">Disponible dans plus de 150 points de vente</p>
-                  </div>
-                  <span class="text-sm font-extrabold text-[#D4A017] bg-[#1C1C1C] px-3 py-1.5 rounded-xl">
-                    Dès 1 800 BIF
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!-- FLOATING BENEFIT PILL -->
-            <div class="absolute -top-4 -right-4 sm:-right-6 bg-white p-3 sm:p-4 rounded-2xl shadow-xl border border-gray-100 flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-[#D4A017]/20 flex items-center justify-center text-[#D4A017] font-bold text-lg">
-                38%
-              </div>
-              <div>
-                <p class="text-xs font-bold text-gray-900">Riche en Protéines</p>
-                <p class="text-[11px] text-gray-500">8 acides aminés essentiels</p>
-              </div>
             </div>
           </div>
         </div>

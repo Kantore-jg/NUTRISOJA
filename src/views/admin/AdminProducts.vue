@@ -439,7 +439,7 @@ const onImageChange = (url) => {
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
               <label class="block text-xs font-semibold text-gray-700 uppercase tracking-wider mb-1">
-                Prix de vente (en Francs Burundais - BIF) *
+                Prix de vente en BIF
               </label>
               <input
                 type="number"

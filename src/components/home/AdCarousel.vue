@@ -71,11 +71,6 @@ function handleNext() {
 
         <!-- CONTENT -->
         <div class="relative z-10 p-6 sm:p-10 md:p-14 max-w-2xl text-white space-y-4">
-          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#D4A017]/20 border border-[#D4A017]/40 text-[#D4A017] text-xs font-semibold">
-            <Sparkles class="w-3.5 h-3.5" />
-            <span>À la une &amp; Actualités</span>
-          </div>
-
           <h3 class="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl leading-tight">
             {{ ads[currentIndex].title }}
           </h3>
@@ -126,14 +121,6 @@ function handleNext() {
             />
           </div>
         </template>
-
-        <!-- PAUSE INDICATOR HINT -->
-        <div
-          v-if="isHovered && ads.length > 1"
-          class="absolute top-4 right-4 z-20 px-2.5 py-1 rounded-md bg-black/50 text-[11px] text-gray-300 backdrop-blur-xs"
-        >
-          Diaporama en pause
-        </div>
       </div>
     </div>
   </section>
